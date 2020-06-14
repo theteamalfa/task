@@ -1,0 +1,26 @@
+<div class="row"> 
+    <div class="column">
+      <figure class="figure" *ngFor="let d of arr2" (click)="goToUrl(d.path)">
+            <img [src]="d.imageUrl" alt="" style="width:100%" class="figure-img img-fluid rounded">
+            <figcaption class="figure-caption" >{{d.title}}</figcaption>
+      </figure>
+    </div>
+    <div class="column">
+        <figure class="figure" *ngFor="let d of arr3" (click)="goToUrl(d.path)">
+                <img [src]="d.imageUrl" alt="" style="width:100%" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">{{d.title}}</figcaption>
+        </figure>
+    </div>  
+    <div class="column">
+        <figure class="figure" *ngFor="let d of arr4" (click)="goToUrl(d.path)">
+                <img [src]="d.imageUrl" alt="" style="width:100%" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">{{d.title}}</figcaption>
+        </figure>
+    </div>
+    <div class="column">
+        <figure class="figure" *ngFor="let d of arr5" (click)="goToUrl(d.path)">
+                <img [src]="d.imageUrl" alt="" style="width:100%" class="figure-img img-fluid rounded">
+                <figcaption class="figure-caption">{{d.title}}</figcaption>
+        </figure>
+    </div>
+  </div>
